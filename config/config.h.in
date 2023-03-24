@@ -1,0 +1,4 @@
+#pragma once
+#define project_path "@project_path@"
+#define input_path "@input_path@"
+#define output_path "@output_path@"
