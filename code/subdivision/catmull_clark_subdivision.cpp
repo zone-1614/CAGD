@@ -15,12 +15,12 @@ Mesh catmull_clark_subdivision(Mesh mesh);
 int main() {
     Mesh mesh;
     // read 
-    OpenMesh::IO::read_mesh(mesh, std::string(input_path) + "cubic.obj");
+    OpenMesh::IO::read_mesh(mesh, std::string(input_path) + "torus.obj");
 
     // subdivide 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 3; i++) {
         mesh = catmull_clark_subdivision(mesh);
-        OpenMesh::IO::write_mesh(mesh, std::string(output_path) + "cubic_subdivision_" + std::to_string(i + 1) + ".obj");
+        OpenMesh::IO::write_mesh(mesh, std::string(output_path) + "torus_subdivision_" + std::to_string(i + 1) + ".obj");
     }
 }
 

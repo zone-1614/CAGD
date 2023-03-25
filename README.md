@@ -1,7 +1,8 @@
 # Computer Aided Geometric Design(CAGD)
 
 ## 资料参考
-* [科大的PPT](http://staff.ustc.edu.cn/~renjiec/CAGD_2022S1/default.htm)
+* [PPT](http://staff.ustc.edu.cn/~renjiec/CAGD_2022S1/default.htm)
+* [网课](https://www.bilibili.com/video/BV1AW411F7u6)
 * [GAMES 102](https://www.bilibili.com/video/BV1NA411E7Yr)
 * 计算机辅助几何设计-王国瑾等人著
 
@@ -23,3 +24,5 @@
 
 ## catmull clark subdivision
 ![catmull clark subdivision](https://raw.githubusercontent.com/zone-1614/pic/main/img/catmull_clark_subdivision.png)
+
+![catmull clark subdivision](https://raw.githubusercontent.com/zone-1614/pic/main/img/catmull_clark_subdivision2.png)
