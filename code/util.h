@@ -11,6 +11,7 @@
 #include <Eigen/Dense>
 
 using vec3 = Eigen::Vector3d;
+using vec4 = Eigen::Vector4d;
 using point = Eigen::Vector3d;
 
 /**
